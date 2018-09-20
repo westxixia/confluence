@@ -1,4 +1,4 @@
-FROM atlassian/confluence-server
+FROM atlassian/confluence-server:6.11.2
 # 传入破解补丁
 ADD crackfile/atlassian-extras-decoder-v2-3.2.jar ${CONFLUENCE_INSTALL_DIR}/confluence/WEB-INF/lib/atlassian-extras-decoder-v2-3.2.jar
 # 设置文件属组
